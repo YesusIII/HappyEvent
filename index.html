@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyEvent</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body class="no-js">
+
+<div class="welcome"> <!-- Overlay -->
+        <div class="overlay_content">
+            <hr class="type_5">
+            <span class="counter counter-popup">25 Juillet 2026 à 15h00</span>
+            <p id="inDays">Dans <span id="dayLeft">#</span> jours,</p>
+            <h2>Camille et Théo <br>vous donnent <br>rendez-vous</h2>
+            <h3>Pour un évenement <br>
+            <span class="fee">Féerique</span></h3>
+            <button id="btnEnter">Entrer</button>
+        </div>
+    
+</div>
+<div class="confetti" id="confetti"> </div>
+
+<nav class="sticky"> <!-- Bandeau nav au top -->
+    <p>Rendez-vous</p>
+    <span class="counter counter-nav">25 Juillet à 15h00</span>
+    <!-- <button id="btnTop">⬆↑⬆</button> Injecté via JS et commenté apres css -->
+    <!-- <button id="hamburger"></button> -->
+</nav>
+
+<header>
+<h1>Camille <span class='ampersand'>&</span> Théo</h1>
+</header>
+
+<main> <!-- Contenu Principal -->
+
+<section class="couple-section">
+    <div class="vow">
+    <h2>ont décidé de se dire</h2>
+    <button id="yes">Oui</button>
+    </div>
+    <div class="bride">
+        <img src="./assets/img/profilwo.png" alt="Camille">
+    </div>
+
+    <div class="groom">
+        <img src="./assets/img/profilman.png" alt="Théo">
+    </div>
+</section>
+                        <hr class="type_4">
+<section class="rdv">
+    <span class="counter counter-main"></span>
+    <h3>Rendez-vous le <br>
+        <span class="date-rdv"><time datetime="2026-07-25">25 Juillet 2026</time> à 15h00</span></h3>
+    <p>à la <br>
+        <span class="location-name">Mairie de Saint-Germain-de-Pasquier</span>
+    </p>
+    <button id="btnIcs"><img src="./assets/content/add-date.svg" class="Add to Calendar"></button>
+    </section>
+                        <hr class="type_4">
+<section class="location">
+    <iframe class="map-frame" width="300" height="150" 
+        src="https://maps.google.com/maps?q=Mairie%20de%20Saint-Germain-de-Pasquier&t=k&z=14&ie=UTF8&iwloc=&output=embed" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <article class="adresse">
+        <p>Mairie de Saint-Germain-de-Pasquier <br>
+            1 Rue de l'Église, <br>
+            27370 Saint-Germain-de-Pasquier</p>
+    </article>
+</section>
+                        <hr class="type_4">
+<section class="our-story">
+    
+    <img src="./assets/img/Couple-1.jpg" alt="Photo Camille et Théo" class="couple-portrait">
+    <article class="story">        
+        <h4>Une rencontre qui a tout changé</h4>
+        <p>Tout a commencé un soir de septembre 2019,
+           un regard, un sourire et quelque chose
+           d'indéfinissable s'est mis en place.</p>
+        <p>Cinq ans de complicité, de voyages partagés
+           et de petits bonheurs du quotidien plus tard,
+           Théo a posé la question qui changeait tout.</p>
+        <p>Aujourd'hui, nous avons décidé de franchir
+           ce nouveau pas ensemble, entourés de ceux
+           que nous aimons.</p>
+        <p>Nous vous attendons avec impatience
+           pour célébrer ce jour à vos côtés.</p>
+        <cite>— Camille & Théo</cite>
+    </article>
+</section>
+                        <hr class="type_4">
+<section class="photos">
+    <div class="photo-bride">
+        <img src="./assets/img/Camille-2.jpg" alt="Camille Photo 1">
+    </div>
+    <div class="caroussel-conteneur">
+        <div class="caroussel-couple">
+            <img id="carousselDefault"
+            src="./assets/img/couple-2.jpg" alt="Photo Couple Camille & Théo">
+            <img id="carousselChange"
+            src="./assets/img/couple-3.jpg" alt="Couple Camille et Théo">
+        </div>
+    </div>
+    <div class="photo-groom">
+        <img src="./assets/img/theo-1.jpg" alt="Théo Photo 1">
+    </div>
+    <div ID="buttonChange"><img src="./assets/content/rose.svg" alt="rose"></div>
+</section>
+</main>
+<hr class="style-two">
+<footer>
+    
+    <small>Yezz · 2026 | Projet-2 <sup class="version">1.0</sup><br>
+    <a href="https://fr.freepik.com/vecteurs-libre/rose-marine-ornee-fleurs-or-brillantes-bordere-du-cadre_64814087.htm">Image de orchidart sur Freepik</a>
+</small>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
+
